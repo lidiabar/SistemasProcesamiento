@@ -40,7 +40,7 @@ public class ProcesadorTexto {
 		String idiomaActual = "";
 		String idiomaAnterior = "";
 
-		txtBaseIdiomas = new File("C:\\Users\\Hernán\\Documents\\Facultad\\Sistemas de Procesamiento\\tp3SP\\base_idiomas.txt");
+		txtBaseIdiomas = new File("C:\\base_idiomas.txt");
 		fr = new FileReader(txtBaseIdiomas);
 		br = new BufferedReader(fr);
 
@@ -63,7 +63,7 @@ public class ProcesadorTexto {
 
 		// Se solicita que se ingrese la ruta del TXT que va a ser leido
 		System.out
-				.println("Por favor, ingresar la ruta del directorio en donde se encuentra el archivo de texto a procesar:");
+				.println("Por favor, ingresar la ruta del directorio:");
 		Scanner scanner = new Scanner(System.in);
 		ruta = scanner.nextLine();
 
